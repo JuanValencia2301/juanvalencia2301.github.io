@@ -17,14 +17,13 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--dark);
   background: var(--light);
-  line-height: 1.6;
-  font-size: 1.15rem;
+  line-height: 1.8;
+  font-size: 1.2rem;
 }
 
-/* Aumentar tamaño de párrafos */
 p {
-  font-size: 1.25rem; /* antes 1.15rem */
-  margin-bottom: 1.2rem;
+  font-size: 1.4rem; /* Párrafos más grandes */
+  margin-bottom: 1.4rem;
 }
 
 .container {
@@ -33,7 +32,7 @@ p {
   margin: auto;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   background: linear-gradient(135deg, var(--secondary), var(--primary));
   color: white;
@@ -41,22 +40,22 @@ p {
   padding: 3.5rem 1rem;
 }
 .hero h1 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   margin-bottom: 0.8rem;
   font-weight: 700;
 }
 .hero .subtitle {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 .hero .cert {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-top: 0.7rem;
 }
 .cta-btn {
   display: inline-block;
   margin-top: 1.8rem;
-  padding: 1rem 1.8rem;
+  padding: 1rem 2rem;
   background: white;
   color: var(--primary);
   font-weight: 600;
@@ -64,14 +63,14 @@ p {
   text-decoration: none;
   box-shadow: var(--shadow);
   transition: background 0.3s, transform 0.2s;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
 }
 .cta-btn:hover {
   background: #f0f0f0;
   transform: translateY(-3px);
 }
 
-/* Sections */
+/* Secciones */
 .section {
   padding: 3.5rem 1rem;
 }
@@ -82,7 +81,7 @@ p {
   color: var(--primary);
   margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 2.6rem; /* antes 2.2rem */
+  font-size: 3rem; /* Encabezados más grandes */
 }
 
 /* Skills */
@@ -97,8 +96,8 @@ p {
   text-align: center;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  font-weight: 500;
-  font-size: 1.25rem; /* antes 1.05rem */
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 /* Projects */
@@ -109,43 +108,43 @@ p {
 }
 .project-card {
   background: white;
-  padding: 1.8rem;
+  padding: 2rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrar contenido */
-  text-align: center; /* Centrar texto */
+  align-items: center;
+  text-align: center;
 }
 .project-card h3 {
   margin-top: 0;
   color: var(--secondary);
-  font-size: 1.8rem; /* antes 1.5rem */
+  font-size: 2rem;
 }
 .link-btn {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.8rem 1.4rem;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
   background: var(--primary);
   color: white;
   border-radius: var(--radius);
   text-decoration: none;
   transition: background 0.3s;
-  font-size: 1.1rem;
+  font-size: 1.3rem; /* Botón más grande */
 }
 .link-btn:hover {
   background: var(--secondary);
 }
 
-/* Contact */
+/* Contacto */
 .contact-list {
   list-style: none;
   padding: 0;
   text-align: center;
-  font-size: 1.3rem; /* antes 1.15rem */
+  font-size: 1.4rem;
 }
 .contact-list li {
-  margin: 0.6rem 0;
+  margin: 0.8rem 0;
 }
 .contact-list a {
   color: var(--primary);
