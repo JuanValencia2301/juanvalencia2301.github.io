@@ -18,11 +18,12 @@ body {
   color: var(--dark);
   background: var(--light);
   line-height: 1.6;
-  font-size: 1.15rem; /* Texto general más grande */
+  font-size: 1.15rem;
 }
 
+/* Aumentar tamaño de párrafos */
 p {
-  font-size: 1.15rem; /* Tamaño de párrafos */
+  font-size: 1.25rem; /* antes 1.15rem */
   margin-bottom: 1.2rem;
 }
 
@@ -40,16 +41,16 @@ p {
   padding: 3.5rem 1rem;
 }
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin-bottom: 0.8rem;
   font-weight: 700;
 }
 .hero .subtitle {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 .hero .cert {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-top: 0.7rem;
 }
 .cta-btn {
@@ -81,7 +82,7 @@ p {
   color: var(--primary);
   margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.6rem; /* antes 2.2rem */
 }
 
 /* Skills */
@@ -92,12 +93,12 @@ p {
 }
 .skill-card {
   background: var(--light);
-  padding: 1.2rem;
+  padding: 1.5rem;
   text-align: center;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1.25rem; /* antes 1.05rem */
 }
 
 /* Projects */
@@ -111,22 +112,26 @@ p {
   padding: 1.8rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar contenido */
+  text-align: center; /* Centrar texto */
 }
 .project-card h3 {
   margin-top: 0;
   color: var(--secondary);
-  font-size: 1.5rem;
+  font-size: 1.8rem; /* antes 1.5rem */
 }
 .link-btn {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.4rem;
   background: var(--primary);
   color: white;
   border-radius: var(--radius);
   text-decoration: none;
   transition: background 0.3s;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .link-btn:hover {
   background: var(--secondary);
@@ -137,7 +142,7 @@ p {
   list-style: none;
   padding: 0;
   text-align: center;
-  font-size: 1.15rem;
+  font-size: 1.3rem; /* antes 1.15rem */
 }
 .contact-list li {
   margin: 0.6rem 0;
