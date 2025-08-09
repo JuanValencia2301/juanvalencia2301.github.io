@@ -18,6 +18,12 @@ body {
   color: var(--dark);
   background: var(--light);
   line-height: 1.6;
+  font-size: 1.15rem; /* Texto general más grande */
+}
+
+p {
+  font-size: 1.15rem; /* Tamaño de párrafos */
+  margin-bottom: 1.2rem;
 }
 
 .container {
@@ -39,11 +45,11 @@ body {
   font-weight: 700;
 }
 .hero .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 .hero .cert {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: 0.7rem;
 }
 .cta-btn {
@@ -57,7 +63,7 @@ body {
   text-decoration: none;
   box-shadow: var(--shadow);
   transition: background 0.3s, transform 0.2s;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 .cta-btn:hover {
   background: #f0f0f0;
@@ -75,7 +81,7 @@ body {
   color: var(--primary);
   margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 /* Skills */
@@ -109,7 +115,7 @@ body {
 .project-card h3 {
   margin-top: 0;
   color: var(--secondary);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 .link-btn {
   display: inline-block;
@@ -120,7 +126,7 @@ body {
   border-radius: var(--radius);
   text-decoration: none;
   transition: background 0.3s;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 .link-btn:hover {
   background: var(--secondary);
@@ -131,7 +137,7 @@ body {
   list-style: none;
   padding: 0;
   text-align: center;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 .contact-list li {
   margin: 0.6rem 0;
@@ -150,5 +156,5 @@ body {
   color: white;
   text-align: center;
   padding: 1rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
