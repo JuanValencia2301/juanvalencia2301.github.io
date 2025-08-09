@@ -20,7 +20,6 @@ body {
   line-height: 1.6;
 }
 
-/* Containers */
 .container {
   width: 90%;
   max-width: 1100px;
@@ -32,24 +31,25 @@ body {
   background: linear-gradient(135deg, var(--secondary), var(--primary));
   color: white;
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 3.5rem 1rem;
 }
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
 }
 .hero .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 .hero .cert {
-  font-size: 0.95rem;
-  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
 }
 .cta-btn {
   display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.8rem 1.5rem;
+  margin-top: 1.8rem;
+  padding: 1rem 1.8rem;
   background: white;
   color: var(--primary);
   font-weight: 600;
@@ -57,6 +57,7 @@ body {
   text-decoration: none;
   box-shadow: var(--shadow);
   transition: background 0.3s, transform 0.2s;
+  font-size: 1.1rem;
 }
 .cta-btn:hover {
   background: #f0f0f0;
@@ -65,7 +66,7 @@ body {
 
 /* Sections */
 .section {
-  padding: 3rem 1rem;
+  padding: 3.5rem 1rem;
 }
 .section.alt {
   background: #ffffff;
@@ -74,21 +75,23 @@ body {
   color: var(--primary);
   margin-bottom: 1.5rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 /* Skills */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
+  gap: 1.2rem;
 }
 .skill-card {
   background: var(--light);
-  padding: 1rem;
+  padding: 1.2rem;
   text-align: center;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   font-weight: 500;
+  font-size: 1.05rem;
 }
 
 /* Projects */
@@ -99,23 +102,25 @@ body {
 }
 .project-card {
   background: white;
-  padding: 1.5rem;
+  padding: 1.8rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 .project-card h3 {
   margin-top: 0;
   color: var(--secondary);
+  font-size: 1.4rem;
 }
 .link-btn {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   background: var(--primary);
   color: white;
   border-radius: var(--radius);
   text-decoration: none;
   transition: background 0.3s;
+  font-size: 0.95rem;
 }
 .link-btn:hover {
   background: var(--secondary);
@@ -126,9 +131,10 @@ body {
   list-style: none;
   padding: 0;
   text-align: center;
+  font-size: 1.05rem;
 }
 .contact-list li {
-  margin: 0.5rem 0;
+  margin: 0.6rem 0;
 }
 .contact-list a {
   color: var(--primary);
@@ -144,6 +150,5 @@ body {
   color: white;
   text-align: center;
   padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
-
